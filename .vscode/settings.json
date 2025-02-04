@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "THEJUICE.sln"
+    "dotnet.defaultSolution": "JUICY.sln"
 }
