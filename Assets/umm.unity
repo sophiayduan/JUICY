@@ -133,7 +133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7a9f6158f206e1b41aabe54997cf7d85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1600149
+      value: -2.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7a9f6158f206e1b41aabe54997cf7d85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -359,8 +359,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232721535}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.035646174, y: 1.9076598e-11, z: -6.804402e-13, w: 0.9993645}
-  m_LocalPosition: {x: 0.035732094, y: 1.6600149, z: -3.446892}
+  m_LocalRotation: {x: 0.23760282, y: -0.00072299666, z: 0.00017685066, w: 0.9713622}
+  m_LocalPosition: {x: 0, y: 1.9213514, z: -4.127692}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1014,7 +1014,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856800541}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.1408746, y: -0.004315095, z: 0.00093170744, w: 0.9900176}
+  m_LocalRotation: {x: 0.026050266, y: 0.0006510971, z: -0.00036065566, w: 0.9996604}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1284,12 +1284,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274468830}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea2e3795858bcb742817f4f8d503b11b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
+  cam: {fileID: 232721539}
   xSensitivity: 30
   ySensitivity: 30
 --- !u!114 &1274468833
@@ -1684,7 +1684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Composition:
-    ScreenPosition: {x: 0, y: 0}
+    ScreenPosition: {x: 0.0015625358, y: 0.16342598}
     DeadZone:
       Enabled: 0
       Size: {x: 0.2, y: 0.2}
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 1527701393}
+    TrackingTarget: {fileID: 1274468835}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -1751,8 +1751,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469638814}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.035646174, y: 1.90766e-11, z: -6.804402e-13, w: 0.9993645}
-  m_LocalPosition: {x: 0.035732094, y: 1.6600149, z: -3.446892}
+  m_LocalRotation: {x: 0.23760279, y: -0.00072299654, z: 0.00017685062, w: 0.9713622}
+  m_LocalPosition: {x: 0, y: 1.9213514, z: -4.127692}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1901,14 +1901,14 @@ MonoBehaviour:
   Orbits:
     Top:
       Radius: 2
-      Height: 2
+      Height: 0
     Center:
-      Radius: 7
-      Height: 0.5
+      Radius: 4
+      Height: 1
     Bottom:
       Radius: 5
-      Height: -1
-    SplineCurvature: 0.5
+      Height: 5
+    SplineCurvature: 0.26
   RecenteringTarget: 2
   HorizontalAxis:
     Value: 0
@@ -1921,7 +1921,7 @@ MonoBehaviour:
       Time: 2
     Restrictions: 0
   VerticalAxis:
-    Value: 17.5
+    Value: 4
     Center: 17.5
     Range: {x: -10, y: 45}
     Wrap: 0
