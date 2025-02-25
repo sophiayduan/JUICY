@@ -939,6 +939,10 @@ PrefabInstance:
       propertyPath: MouseSenstivity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1882488412224669188, guid: ca9786c2d29056f4e827fe94ad40c75e, type: 3}
+      propertyPath: locomotionBlendSpeed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1887141852131936315, guid: ca9786c2d29056f4e827fe94ad40c75e, type: 3}
       propertyPath: DefaultBlend.Time
       value: 2
