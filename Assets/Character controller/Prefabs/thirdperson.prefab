@@ -1109,7 +1109,7 @@ GameObject:
   - component: {fileID: 1882488412224669188}
   m_Layer: 0
   m_Name: thirdperson
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1188,7 +1188,6 @@ MonoBehaviour:
   lookSenseH: 0.1
   lookSenseV: 0.1
   lookLimitV: 89
-  MouseSenstivity: 3
 --- !u!95 &8158152352229030201
 Animator:
   serializedVersion: 7

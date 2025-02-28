@@ -5,6 +5,7 @@ using UnityEngine;
 using System.Runtime.CompilerServices;
 using UnityEngine.UIElements;
 using UnityEngine.ProBuilder.MeshOperations;
+using Charactercontroller;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class EnemyScript : MonoBehaviour
     private bool seePlayer;
     public bool grounded = true;
 
-    public float AttackDamage;
+    // public float Health;
 
     public float Cooldown;
     public float MinAttackRange;
@@ -28,7 +29,6 @@ public class EnemyScript : MonoBehaviour
 
     public float LastAttack;
     public GameObject EnemyBullet;
-    public float RetreatDistance;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -101,16 +101,17 @@ public class EnemyScript : MonoBehaviour
         
     }
     }
-        void Attack()
-    {
-        // RaycastHit hit;
-        // if(Physics.Raycast(transform.position, (Target.transform.position -transform.position), out Hit, SightRange))
-        // {
-        //     if (hit.collider.CompareTag("Player"))
-        //     {
 
-        //     }
-        // }
+    // void Attack()
+    // {
+    //     RaycastHit Hit;
+    //     if(Physics.Raycast(transform.position, (Target.transform.position -transform.position), out Hit, SightRange))
+    //     {
+    //         if (Hit.collider.CompareTag("Player"))
+    //         {
+    //             playerState.takeDamage(damage);
+    //         }
+    //     }
 
-    }
+    // }
 }

@@ -13,6 +13,8 @@ namespace Charactercontroller{
             Falling = 5,
             Strafing = 6,
         }
-    }
 
+
+
+    }
 }
